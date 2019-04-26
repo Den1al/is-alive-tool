@@ -1,0 +1,19 @@
+{
+  "name": "is-alive-tool",
+  "version": "1.0.0",
+  "description": "tests whether the computer has a live internet connection to various destinations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "prod": "npm start --silent"
+  },
+  "author": "@Daniel_Abeles",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-art": "^1.5.1",
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.22",
+    "figlet": "^1.2.1"
+  }
+}
