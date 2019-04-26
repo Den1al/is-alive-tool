@@ -5,7 +5,7 @@ async function main() {
   const urls = [
     'https://facebook.com',
     'https://twitter.com',
-    'https://reddit.com',
+    'https://reddit2.com',
   ];
 
   printProlog();
